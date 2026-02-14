@@ -2,31 +2,120 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 11%
+    right: 9%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: rotate1 4s linear infinite
     position: absolute
-    top: 51%
-    right: 30%
+    top: 65.5%
+    right: 85.3%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+@keyframes rotate1
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
   
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 549px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: $color-sistema-texto !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
 figcaption
   font-weight: normal
+//- modulo tarjetas
+.tarjeta--C01
+  background-color: #EEF4FF
+.tarjeta--BG01
+  background-image: url("../assets/curso/BG01.png")
+  background-size: cover
+  background-repeat: no-repeat
+.tarjeta--BG02
+  background-image: url("../assets/curso/BG02.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.BG03
+  background-image: url("../assets/curso/BG03.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+//- Modulo cajones
+.cajon.C01
+  background-color: #EEF4FF 
+.cajon.C02
+  background-color: #EFFEFF 
+.cajon.C03
+  background-color: #FFF7D9 
+//- Modulo slyders
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  text-align: center
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+.slyder-b__btn--sigt, .slyder-a__btn--atrs, .slyder__btn:hover
+  background-color: #9B165D
+  color: #FFFF
+  border: none
+  opacity: 100
+  background-image: url(../assets/curso/chevron-right2.png)
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #9B165D
+  color: #FFFF
+  border: none
+  opacity: 100
+  background-image: url(../assets/curso/chevron-right2.png)
+.slyder-a__bullets__item
+  background-color: #302C9E
+  border: none
+.slyder-a__bullets__item--active
+  background-color: #9B165D
+  border: none
+//- pasosb color fondo btn left and right
+.pasos-b__header__btn--left, .pasos-b__header__btn--right, 
+  background-color: #9B165D
+  border: none
+  color: #fff
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  background-color: #CAD6FE
+  border: #CAD6FE
+.pasos-b__header__item--before .pasos-b__header__item__dot i
+  color: #12263F
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+  background-color: #9D9D9D 
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+.pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+// Modulo versión escritorio/movil para figuras
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
