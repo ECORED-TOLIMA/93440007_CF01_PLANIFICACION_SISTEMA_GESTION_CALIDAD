@@ -317,85 +317,86 @@ export default {
   referencias: [
     {
       referencia:
-        'Abuhav, I. (2017). ISO 9001:2015 – A complete guide to quality management systems. Routledge / CRC Press.',
+        'Abuhav, I. (2017). <em> ISO 9001:2015 – A complete guide to quality management systems</em>. Routledge / CRC Press.',
       link: '',
     },
 
     {
       referencia:
-        'Buenos Negocios. (2013). Implementar un sistema de calidad en 9 pasos.',
+        'Buenos Negocios. (2013). <em> Implementar un sistema de calidad en 9 pasos</em>.',
       link: '',
     },
 
     {
       referencia:
-        'Canela López, J. R. (2004). La gestión por calidad total en la empresa moderna. Alfaomega.',
+        'Canela López, J. R. (2004). <em> La gestión por calidad total en la empresa moderna. Alfaomega</em>.',
       link: '',
     },
 
     {
       referencia:
-        'Cantú Delgado, H. (1997). Desarrollo de una cultura de calidad (1.ª ed.). McGraw Hill.',
+        'Cantú Delgado, H. (1997). <em> Desarrollo de una cultura de calidad</em> (1.ª ed.). McGraw Hill.',
       link: '',
     },
 
     {
       referencia:
-        'Carriel Palma, R. J., Barros Merizalde, C. K., & Fernández Flores, F. M. (2018). Sistema de gestión y control de la calidad: Norma ISO 9001:2015. Recimundo.',
+        'Carriel Palma, R. J., Barros Merizalde, C. K., & Fernández Flores, F. M. (2018). <em> Sistema de gestión y control de la calidad: Norma ISO 9001:2015</em>. Recimundo.',
       link:
         'https://www.recimundo.com/index.php/es/article/view/151?utm_source=chatgpt.com',
     },
 
     {
       referencia:
-        'Chiavenato, I. (2001). Administración: Proceso administrativo. McGraw Hill.',
+        'Chiavenato, I. (2001). <em> Administración: Proceso administrativo</em>. McGraw Hill.',
       link: '',
     },
 
     {
       referencia:
-        'Deming, W. E. (s.f.). Calidad, productividad y competitividad: La salida de la crisis.',
+        'Deming, W. E. (s.f.). <em> Calidad, productividad y competitividad: La salida de la crisis</em>.',
       link: '',
     },
 
     {
       referencia:
-        'Fred, R. (1997). Conceptos de administración estratégica. Prentice Hall Hispanoamericana.',
+        'Fred, R. (1997). <em> Conceptos de administración estratégica. Prentice Hall Hispanoamericana</em>.',
       link: '',
     },
 
     {
       referencia:
-        'Geocities. (s.f.). ISO 9000 para pequeñas y medianas empresas (pymes).',
+        'Geocities. (s.f.). <em> ISO 9000 para pequeñas y medianas empresas (pymes)<em>.',
       link: '',
     },
 
     {
       referencia:
-        'Harrington, J., & Harrington, J. Jr. (1997). Administración total del mejoramiento continuo. McGraw Hill.',
+        'Harrington, J., & Harrington, J. Jr. (1997). <em> Administración total del mejoramiento continuo</em>. McGraw Hill.',
       link: '',
     },
 
     {
       referencia:
-        'International Organization for Standardization (ISO). (2015). ISO 9001:2015 – Quality management systems – Requirements. ISO.',
-      link: '',
-    },
-
-    {
-      referencia: 'Maldonado, J. Á. (2015). Fundamentos de calidad total.',
+        'International Organization for Standardization (ISO). (2015). <em> ISO 9001:2015 – Quality management systems – Requirements.</em> ISO.',
       link: '',
     },
 
     {
       referencia:
-        'Sánchez Azor, S. (2017). Gestión de la calidad (ISO 9001/2015). Editorial Elearning, S.L.',
+        'Maldonado, J. Á. (2015). <em> Fundamentos de calidad total</em>.',
       link: '',
     },
 
     {
       referencia:
-        'Serna Gómez, H. (2008). Gerencia estratégica (10.ª ed.). 3R Editores.',
+        'Sánchez Azor, S. (2017). <em> Gestión de la calidad (ISO 9001/2015)</em>. Editorial Elearning, S.L.',
+      link: '',
+    },
+
+    {
+      referencia:
+        'Serna Gómez, H. (2008). <em>Gerencia estratégica</em> (10.ª ed.). 3R Editores.',
       link: '',
     },
   ],

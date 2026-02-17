@@ -23,7 +23,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1 Conceptos y principios de la calidad
     .row.justify-content-center.mb-4
-      .col.col-lg-1.col-md-7.col-auto.order-lg-1.order-1.mb-3
+      .col.col-lg-1.col-md-6.col-auto.order-lg-1.order-1.mb-3
         figure
           img(src='@/assets/curso/tema1/img02.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2.mb-4
@@ -185,7 +185,7 @@
       .col.col-lg-4.col-md-7.col-8.order-lg-2.order-1.mb-3
         figure
           img(src='@/assets/curso/tema1/img22.png', alt='Imagen decorativa')
-      .col.col-lg-6.order-lg-1.order-2
+      .col.col-lg-6.col-12.order-lg-1.order-2
         .cajon.cajon.C03.p-4.mb-3.p-3
           p.mb-0(data-aos="fade-down") El riesgo se entiende como el efecto de la incertidumbre sobre los resultados esperados, el cual puede generar consecuencias positivas o negativas. Por su parte, las oportunidades corresponden a circunstancias que favorecen el cumplimiento de los objetivos organizacionales y el fortalecimiento del desempeño institucional. La norma establece que la organización debe identificar, analizar y tratar tanto los riesgos como las oportunidades, con el fin de garantizar la eficacia del sistema de gestión.
         p.mb-0(data-aos="fade-down") Las partes interesadas son aquellas personas u organizaciones que pueden afectar, verse afectadas o percibirse afectadas por las decisiones y actividades de la organización. Estas incluyen clientes, proveedores, trabajadores, entes reguladores, socios estratégicos y la comunidad en general. La identificación y análisis de sus necesidades y expectativas permite orientar la planificación estratégica del Sistema de Gestión de la Calidad.
@@ -204,10 +204,108 @@
       .col-12
         figure.movil
           img(src='@/assets/curso/tema1/img24.svg', alt='En la figura 1 se presenta la relación entre riesgos, oportunidades y partes interesadas alrededor del logro de los objetivos estratégicos ubicado en el centro, representando la interacción de estos elementos dentro del sistema de gestión de la calidad.')
-    p.mb-5(data-aos="fade-down") La gestión del riesgo dentro del Sistema de Gestión de la Calidad se desarrolla mediante un proceso sistemático que permite identificar, analizar y controlar los eventos que pueden impactar el desempeño organizacional. Este proceso comprende varias etapas que facilitan la toma de decisiones y el establecimiento de acciones preventivas y correctivas.
+    p.mb-4(data-aos="fade-down") La gestión del riesgo dentro del Sistema de Gestión de la Calidad se desarrolla mediante un proceso sistemático que permite identificar, analizar y controlar los eventos que pueden impactar el desempeño organizacional. Este proceso comprende varias etapas que facilitan la toma de decisiones y el establecimiento de acciones preventivas y correctivas.
+    .BG04.mb-5(data-aos="flip-up")
+      .row.justify-content-center.align-items-center(data-aos="fade-down")
+        .col-lg-4.d-none.d-lg-block
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/tema1/img30.png", alt="alt")
+        .col-lg-8
+          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
+            .tarjeta.tarjeta--slyder.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-lg-8
+                  img(src="@/assets/curso/tema1/img25.svg", alt="alt").img100.m-auto
+              p Identificación de riesgos potenciales que pueden afectar los procesos.
+            .tarjeta.tarjeta--slyder.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-lg-8
+                  img(src="@/assets/curso/tema1/img26.svg", alt="alt").img100.m-auto
+              p Análisis de las causas y consecuencias asociadas a los riesgos identificados.
+            .tarjeta.tarjeta--slyder.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-lg-8
+                  img(src="@/assets/curso/tema1/img27.svg", alt="alt").img100.m-auto
+              p Evaluación del nivel de impacto y probabilidad de ocurrencia.
+            .tarjeta.tarjeta--slyder.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-lg-8
+                  img(src="@/assets/curso/tema1/img28.svg", alt="alt").img100.m-auto
+              p Tratamiento del riesgo mediante la implementación de acciones para eliminarlo, reducirlo, compartirlo o aceptarlo.
+            .tarjeta.tarjeta--slyder.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-lg-8
+                  img(src="@/assets/curso/tema1/img29.svg", alt="alt").img100.m-auto
+              p Seguimiento y control para verificar la eficacia de las acciones implementadas.
+    p.mb-4(data-aos="fade-down") Este proceso contribuye al fortalecimiento de la planificación estratégica, la asignación adecuada de recursos y el mejoramiento continuo del Sistema de Gestión de la Calidad, como se presenta a continuación:
+    .row.justify-content-center.align-items-stretch.mb-4.g-0
+      .col-lg-5.col-12.order-lg-2.order-2
+        .cajon.C02.p-4.h-100.w-100
+          ol.lista-ol--cuadro.lista-ol--separador
+            li
+              .lista-ol--cuadro__vineta
+                span.text-bold 1
+              | Identificación
+            li
+              .lista-ol--cuadro__vineta
+                span.text-bold 2
+              | Análisis
+            li
+              .lista-ol--cuadro__vineta
+                span.text-bold 3
+              | Evaluación
+            li
+              .lista-ol--cuadro__vineta
+                span.text-bold 4
+              | Tratamiento
+            li
+              .lista-ol--cuadro__vineta
+                span.text-bold 5
+              | Seguimiento del riesgo
+      .col-lg-5.col-8.col-md-7.order-lg-1.order-1
+        figure
+          img(src='@/assets/curso/tema1/img31.svg', alt='Imagen decorativa')
+    .row.justify-content-center.mb-0
+      .col.col-lg-10
+        p.mb-0(data-aos="fade-down") La aplicación del enfoque basado en riesgos permite a la organización anticiparse a posibles desviaciones, fortalecer la toma de decisiones y garantizar el cumplimiento de los requisitos del cliente, los requisitos legales y los lineamientos estratégicos establecidos en la norma NTC ISO 9001.
     separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.4 Ciclo PHVA en el Sistema de Gestión de la Calidad
+    p.mb-4(data-aos="fade-down") El ciclo PHVA, también conocido como ciclo de mejora continua o ciclo Deming, constituye un modelo de gestión que orienta la planificación, ejecución, seguimiento y mejora de los procesos organizacionales. Este enfoque es uno de los pilares de la Norma Técnica Colombiana NTC ISO 9001, ya que permite estructurar el Sistema de Gestión de la Calidad mediante una secuencia lógica que favorece el cumplimiento de los objetivos organizacionales y el mejoramiento permanente del desempeño.
+    p.mb-5(data-aos="fade-down") El ciclo se representa de la siguiente manera:
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-lg-10.col-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2.
+          span Ciclo PHVA
+      .row.justify-content-center
+        .col-10
+          figure.desktop
+            img(src='@/assets/curso/tema1/img32.svg', alt='En la figura 2 se presenta el ciclo PHVA como un proceso de mejora continua compuesto por cuatro etapas: Planear, donde se definen objetivos y acciones; Hacer, que corresponde a la ejecución de lo planificado; Verificar, donde se evalúan los resultados; y Actuar, que implica la implementación de mejoras para reiniciar el ciclo.')
+      .col-12
+        figure.movil
+          img(src='@/assets/curso/tema1/img33.svg', alt='En la figura 2 se presenta el ciclo PHVA como un proceso de mejora continua compuesto por cuatro etapas: Planear, donde se definen objetivos y acciones; Hacer, que corresponde a la ejecución de lo planificado; Verificar, donde se evalúan los resultados; y Actuar, que implica la implementación de mejoras para reiniciar el ciclo.')
+    .row.justify-content-center.mb-4
+      .col.col-lg-10
+        p.text-center(data-aos="fade-down") A continuación, se describen las fases del ciclo con el fin de facilitar su comprensión y aplicación en el Sistema de Gestión de la Calidad:
+    .row.justify-content-center.mb-0
+      .col.col-lg-10.col-12
+        .tarjeta.tarjeta--C02.p-4(data-aos="flip-up")
+          .row.justify-content-center.g-0
+            .col-lg-6.order-lg-2.order-2
+              .tarjeta.clr--pink.p-4.rounded-0.h-100
+                .tarjeta.bg-white.p-4
+                  #t_1_4.titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
+                    h2 Pódcast
+                  TarjetaAudio.color-acento-botones.mb-3(
+                  texto="Ciclo PHVA en el Sistema de Gestión de la Calidad"
+                  :audio="require('@/assets/curso/audio/5.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+              )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+            .col-lg-6.col-8.col-md-7.order-lg-1.order-1
+              figure
+                img(src='@/assets/curso/tema1/img34.svg', alt='Imagen decorativa')
 </template>
 
 <script>
