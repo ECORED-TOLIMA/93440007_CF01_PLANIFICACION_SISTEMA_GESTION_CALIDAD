@@ -226,8 +226,8 @@
         .col-lg-7.order-lg-1.order-2
           p La visión representa la proyección futura de la organización, estableciendo el estado deseado que se pretende alcanzar en un periodo determinado. Este componente orienta la planeación estratégica y motiva el desarrollo de acciones que permitan el crecimiento institucional.
           .tarjeta.tarjeta--blanca.p-3
-            h5 Un ejemplo de visión corresponde al caso de una organización dedicada a la prestación de servicios de formación, la cual proyecta:
-            p Consolidarse como una entidad líder en procesos educativos de alta calidad, reconocida por su contribución al desarrollo social, productivo y tecnológico, mediante la innovación pedagógica y el fortalecimiento permanente de las competencias del talento humano.
+            p Un ejemplo de visión corresponde al caso de una organización dedicada a la prestación de servicios de formación, la cual proyecta:
+            h5 Consolidarse como una entidad líder en procesos educativos de alta calidad, reconocida por su contribución al desarrollo social, productivo y tecnológico, mediante la innovación pedagógica y el fortalecimiento permanente de las competencias del talento humano.
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/tema3/img22.png', alt="Imagen decorativa")
@@ -235,20 +235,20 @@
         .col-lg-7.order-lg-1.order-2
           p Los objetivos organizacionales corresponden a los resultados específicos que la organización busca alcanzar para cumplir su misión y avanzar hacia su visión. Estos deben ser medibles, coherentes con la política de calidad y alineados con los requisitos establecidos en la NTC ISO 9001.
           .tarjeta.tarjeta--blanca.p-3
-            h5 Un ejemplo de objetivos organizacionales corresponde al caso de una organización dedicada a la prestación de servicios de formación, la cual establece:
+            p Un ejemplo de objetivos organizacionales corresponde al caso de una organización dedicada a la prestación de servicios de formación, la cual establece:
             ul.lista-ul.mb-0
               li.mb-0
                 i.lista-ul__vineta
-                p.mb-0 Incrementar el nivel de satisfacción de los usuarios en un porcentaje definido durante un periodo determinado.
+                p.mb-0.text-bold Incrementar el nivel de satisfacción de los usuarios en un porcentaje definido durante un periodo determinado.
               li.mb-0
                 i.lista-ul__vineta
-                p.mb-0 Fortalecer las competencias del talento humano mediante programas de formación y actualización permanente.
+                p.mb-0.text-bold Fortalecer las competencias del talento humano mediante programas de formación y actualización permanente.
               li.mb-0
                 i.lista-ul__vineta
-                p.mb-0 Mejorar la eficiencia de los procesos institucionales mediante la implementación de acciones de mejora continua.
+                p.mb-0.text-bold Mejorar la eficiencia de los procesos institucionales mediante la implementación de acciones de mejora continua.
               li.mb-0
                 i.lista-ul__vineta
-                p.mb-0 Garantizar el cumplimiento de los requisitos normativos y reglamentarios aplicables a la organización.
+                p.mb-0.text-bold Garantizar el cumplimiento de los requisitos normativos y reglamentarios aplicables a la organización.
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/tema3/img23.png', alt="Imagen decorativa")
