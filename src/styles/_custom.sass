@@ -80,7 +80,7 @@ figcaption
   background-repeat: no-repeat
   margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
-    margin-inline: -0.7rem !important
+    margin-inline: -0.5rem !important
 .tarjeta--BG05
   background-image: url("../assets/curso/BG05.png")
   background-size: cover
@@ -118,6 +118,10 @@ figcaption
   border: none
   opacity: 100
   background-image: url(../assets/curso/chevron-right2.png)
+@media (max-width: 576px)
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt 
+    width: 25px
+    height: 25px
 .slyder-a__bullets__item
   background-color: #302C9E
   border: none
@@ -222,9 +226,9 @@ thead
   &.crd--grayGrad
     padding: 2.4rem
     height: 100%
-    background-color: #EEF4FF
+    background-color: #9B165D
     h5
-      color: $black
+      color: $white
     background-size: cover
     background-repeat: no-repeat
     background-position: center
@@ -232,10 +236,10 @@ thead
     border-radius: 15px    
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
     &:hover      
-      background-color: #9B165D
+      background-color: #EEF4FF  
       background-size: cover
       h5
-        color: $white !important
+        color: $black !important
       background-repeat: no-repeat
       background-position: center
       .bottomCircle

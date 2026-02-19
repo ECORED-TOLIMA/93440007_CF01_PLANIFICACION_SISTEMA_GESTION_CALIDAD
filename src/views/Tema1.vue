@@ -204,7 +204,8 @@
       .col-12
         figure.movil
           img(src='@/assets/curso/tema1/img24.svg', alt='En la figura 1 se presenta la relación entre riesgos, oportunidades y partes interesadas alrededor del logro de los objetivos estratégicos ubicado en el centro, representando la interacción de estos elementos dentro del sistema de gestión de la calidad.')
-    p.mb-4(data-aos="fade-down") La gestión del riesgo dentro del Sistema de Gestión de la Calidad se desarrolla mediante un proceso sistemático que permite identificar, analizar y controlar los eventos que pueden impactar el desempeño organizacional. Este proceso comprende varias etapas que facilitan la toma de decisiones y el establecimiento de acciones preventivas y correctivas.
+    p(data-aos="fade-down") La gestión del riesgo dentro del Sistema de Gestión de la Calidad se desarrolla mediante un proceso sistemático que permite identificar, analizar y controlar los eventos que pueden impactar el desempeño organizacional. Este proceso comprende varias etapas que facilitan la toma de decisiones y el establecimiento de acciones preventivas y correctivas.
+    p.mb-5(data-aos="fade-down") Las etapas principales de la gestión del riesgo son:|
     .BG04.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
         .col-lg-4.d-none.d-lg-block
@@ -291,15 +292,15 @@
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12
         .tarjeta.tarjeta--C02.p-4(data-aos="flip-up")
-          .row.justify-content-center.g-0
+          .row.justify-content-center.align-items-center.g-0
             .col-lg-6.order-lg-2.order-2
               .tarjeta.clr--pink.p-4.rounded-0.h-100
                 .tarjeta.bg-white.p-4
-                  #t_1_4.titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
-                    h2 Pódcast
+                  //- #t_1_4.titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
+                  //-   h2 Pódcast
                   TarjetaAudio.color-acento-botones.mb-3(
-                  texto="Ciclo PHVA en el Sistema de Gestión de la Calidad"
-                  :audio="require('@/assets/curso/audio/5.mp3')"
+                  texto="Pódcast"
+                  :audio="require('@/assets/curso/audio/Podcast_CF01_93440007.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

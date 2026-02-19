@@ -63,13 +63,13 @@
                   img(src='@/assets/curso/tema2/img06.svg', alt='Imagen decorativa')
             h4.text-center(data-aos="fade-down") Oportunidades
             p.mb-0.text-center Circunstancias que pueden favorecer el desempeño organizacional, la innovación y el mejoramiento de los procesos.
+    p.mb-5 La organización puede implementar diversas estrategias, entre ellas:    
     .BG04.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
         .col-lg-4.d-none.d-lg-block
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema2/img12.png", alt="alt")
         .col-lg-8
-          p.text-center La organización puede implementar diversas estrategias, entre ellas:
           SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
             .tarjeta.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3

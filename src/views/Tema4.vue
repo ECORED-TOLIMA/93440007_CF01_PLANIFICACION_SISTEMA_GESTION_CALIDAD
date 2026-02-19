@@ -196,14 +196,14 @@
     separador 
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.3 Lineamientos para la formulación de objetivos de calidad
-    p.mb-5(data-aos="fade-down") Los objetivos de calidad constituyen resultados específicos que la organización establece con el propósito de cumplir la política de calidad y orientar el desempeño del Sistema de Gestión de la Calidad. De acuerdo con la NTC ISO 9001 en su versión vigente, los objetivos deben ser coherentes con el direccionamiento estratégico, medibles y orientados al mejoramiento continuo de los procesos.
+    p(data-aos="fade-down") Los objetivos de calidad constituyen resultados específicos que la organización establece con el propósito de cumplir la política de calidad y orientar el desempeño del Sistema de Gestión de la Calidad. De acuerdo con la NTC ISO 9001 en su versión vigente, los objetivos deben ser coherentes con el direccionamiento estratégico, medibles y orientados al mejoramiento continuo de los procesos.
+    p.mb-5(data-aos="fade-down") La formulación de objetivos de calidad permite transformar las intenciones organizacionales en acciones concretas que facilitan la evaluación del desempeño institucional y la toma de decisiones basada en evidencias. Para su adecuada estructuración, la organización debe considerar los siguientes lineamientos:
     .BG04.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
         .col-lg-4.d-none.d-lg-block
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/img18.png", alt="alt")
         .col-lg-8
-          p.text-center La formulación de objetivos de calidad permite transformar las intenciones organizacionales en acciones concretas que facilitan la evaluación del desempeño institucional y la toma de decisiones basada en evidencias. Para su adecuada estructuración, la organización debe considerar los siguientes lineamientos:
           SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
             .tarjeta.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3

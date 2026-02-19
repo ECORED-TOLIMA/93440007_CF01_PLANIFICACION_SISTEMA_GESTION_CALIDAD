@@ -19,7 +19,7 @@
           .col.col-lg-9.order-lg-1.order-2
             .tarjeta.tarjeta--C01.p-4
               p.mb-2(data-aos="fade-down") En el contexto de la NTC ISO 9001, la planeación estratégica se relaciona con el liderazgo, el enfoque basado en procesos y la gestión orientada a resultados, elementos que contribuyen al fortalecimiento del Sistema de Gestión de la Calidad y al logro de los objetivos organizacionales.
-          .col.col-lg-3.order-lg-2.order-1
+          .col.col-lg-3.order-lg-2.order-1.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema3/img02.svg', alt='Imagen decorativa')
     separador 
@@ -58,6 +58,40 @@
             figure
               img(src="@/assets/curso/tema3/img07.svg", alt="alt").img50.m-auto
           h5.text-center Amenazas derivadas del entorno que pueden afectar los resultados organizacionales.
+    p(data-aos="fade-down") Dentro del Sistema de Gestión de la Calidad (SGC), la estrategia organizacional permite alinear la política de calidad, los objetivos estratégicos y los procesos institucionales con las necesidades del cliente y las expectativas de las partes interesadas. Este enfoque favorece la toma de decisiones basada en información, el control de los procesos y el fortalecimiento del mejoramiento continuo.
+    p.mb-5(data-aos="fade-down") Asimismo, la estrategia organizacional contribuye a:
+    .BG04.mb-5(data-aos="flip-up")
+      .row.justify-content-center.align-items-center(data-aos="fade-down")
+        .col-lg-4.d-none.d-lg-block
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/tema3/img24.png", alt="alt")
+        .col-lg-8
+          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
+            .tarjeta.tarjeta--slyder.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-lg-8
+                  img(src="@/assets/curso/tema3/img25.svg", alt="alt").img100.m-auto
+              p Orientar la planificación de actividades institucionales.
+            .tarjeta.tarjeta--slyder.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-lg-8
+                  img(src="@/assets/curso/tema3/img26.svg", alt="alt").img100.m-auto
+              p Establecer prioridades en la asignación de recursos.
+            .tarjeta.tarjeta--slyder.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-lg-8
+                  img(src="@/assets/curso/tema3/img27.svg", alt="alt").img100.m-auto
+              p Definir responsabilidades y roles organizacionales.
+            .tarjeta.tarjeta--slyder.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-lg-8
+                  img(src="@/assets/curso/tema3/img28.svg", alt="alt").img100.m-auto
+              p Facilitar el seguimiento y evaluación del desempeño.
+            .tarjeta.tarjeta--slyder.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-lg-8
+                  img(src="@/assets/curso/tema3/img29.svg", alt="alt").img100.m-auto
+              p Fortalecer la capacidad de adaptación frente a cambios del entorno.
     .row.justify-content-center.mb-5
       .col.col-lg-10.order-lg-1.order-2
         p.mb-0(data-aos="fade-down") De esta manera, la estrategia organizacional permite mantener coherencia entre el propósito institucional, las acciones desarrolladas y los resultados esperados, contribuyendo al fortalecimiento del Sistema de Gestión de la Calidad y al logro de los objetivos organizacionales.
@@ -157,7 +191,7 @@
               img(src='@/assets/curso/tema3/img18.svg', alt="Imagen decorativa")          
             .col-lg-10(data-aos="fade-down")
               h4 Fortalecimiento del enfoque preventivo
-              p promueve la identificación anticipada de riesgos y oportunidades, favoreciendo la implementación de acciones oportunas.
+              p Promueve la identificación anticipada de riesgos y oportunidades, favoreciendo la implementación de acciones oportunas.
           .row.justify-content-center
             .col-lg-10.order-lg-1.order-2(data-aos="fade-down")
               h4 Alineación con los requisitos normativos
@@ -183,8 +217,8 @@
         .col-lg-7.order-lg-1.order-2
           p La misión describe la razón de ser de la organización, su propósito principal, las actividades que desarrolla y el valor que ofrece a sus clientes o beneficiarios. Este elemento responde a preguntas como qué hace la organización, para quién lo hace y cómo genera valor.
           .tarjeta.tarjeta--blanca.p-3
-            h5 Un ejemplo de misión corresponde al caso de una organización dedicada a la prestación de servicios de formación, la cual establece:
-            p Brindar servicios de formación integral mediante programas educativos pertinentes y de calidad, que contribuyan al desarrollo de competencias laborales y al fortalecimiento del talento humano.
+            p Un ejemplo de misión corresponde al caso de una organización dedicada a la prestación de servicios de formación, la cual establece:
+            h5 Brindar servicios de formación integral mediante programas educativos pertinentes y de calidad, que contribuyan al desarrollo de competencias laborales y al fortalecimiento del talento humano.
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/tema3/img21.png', alt="Imagen decorativa")
