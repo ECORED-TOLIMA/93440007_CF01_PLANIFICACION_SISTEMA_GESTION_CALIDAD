@@ -205,7 +205,7 @@
         figure.movil
           img(src='@/assets/curso/tema1/img24.svg', alt='En la figura 1 se presenta la relación entre riesgos, oportunidades y partes interesadas alrededor del logro de los objetivos estratégicos ubicado en el centro, representando la interacción de estos elementos dentro del sistema de gestión de la calidad.')
     p(data-aos="fade-down") La gestión del riesgo dentro del Sistema de Gestión de la Calidad se desarrolla mediante un proceso sistemático que permite identificar, analizar y controlar los eventos que pueden impactar el desempeño organizacional. Este proceso comprende varias etapas que facilitan la toma de decisiones y el establecimiento de acciones preventivas y correctivas.
-    p.mb-5(data-aos="fade-down") Las etapas principales de la gestión del riesgo son:|
+    p.mb-5(data-aos="fade-down") Las etapas principales de la gestión del riesgo son:
     .BG04.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
         .col-lg-4.d-none.d-lg-block
