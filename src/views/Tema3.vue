@@ -59,7 +59,7 @@
               img(src="@/assets/curso/tema3/img07.svg", alt="alt").img50.m-auto
           h5.text-center Amenazas derivadas del entorno que pueden afectar los resultados organizacionales.
     p(data-aos="fade-down") Dentro del Sistema de Gestión de la Calidad (SGC), la estrategia organizacional permite alinear la política de calidad, los objetivos estratégicos y los procesos institucionales con las necesidades del cliente y las expectativas de las partes interesadas. Este enfoque favorece la toma de decisiones basada en información, el control de los procesos y el fortalecimiento del mejoramiento continuo.
-    p.mb-5(data-aos="fade-down") Asimismo, la estrategia organizacional contribuye a:
+      p.mb-5(data-aos="fade-down") Asimismo, la estrategia organizacional contribuye a:
     .BG04.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
         .col-lg-4.d-none.d-lg-block
