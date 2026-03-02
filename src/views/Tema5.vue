@@ -132,16 +132,16 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-lg-6.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
-          .row(numero="1" titulo="Información documentada")
+          .row(numero="5" titulo="Información documentada")
             .col-12.mb-4.mb-md-0
               p.mb-0 Permite estandarizar los procesos, registrar evidencias y facilitar el control de las actividades organizacionales.
-          .row(numero="2" titulo="Gestión del riesgo y oportunidades")
+          .row(numero="6" titulo="Gestión del riesgo y oportunidades")
             .col-12.mb-4.mb-md-0
               p.mb-0 Permite identificar situaciones que puedan afectar el cumplimiento de los objetivos organizacionales y establecer acciones preventivas.
-          .row(numero="3" titulo="Seguimiento y medición")
+          .row(numero="7" titulo="Seguimiento y medición")
             .col-12.mb-4.mb-md-0
               p.mb-0 Facilita evaluar el desempeño del sistema mediante indicadores, auditorías y revisiones por la dirección.
-          .row(numero="4" titulo="Mejora continua")
+          .row(numero="8" titulo="Mejora continua")
             .col-12.mb-4.mb-md-0
               p.mb-0 Promueve la implementación de acciones correctivas, preventivas y de optimización de los procesos.
       .col-lg-6.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block

@@ -243,7 +243,7 @@
       .col.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 5.
-          span Elementos de la política de calidad según la NTC ISO 9001
+          span Criterios para la formulación de objetivos de calidad
         .tabla-a.color-acento-contenido
           table
             thead
